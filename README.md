@@ -16,7 +16,7 @@ Si ya ha trabajado con otra base de datos recuerde modificar el puerto, username
 
 Paso 4: Instalar dependencias en la raíz del proyecto y commandos para levantar el backend
 
-Se requiere que su pc tenga instalado [Composer](https://getcomposer.org/), [Node y NPM]((https://nodejs.org/en))
+Se requiere que su pc tenga instalado [Composer](https://getcomposer.org/), [Node y NPM](https://nodejs.org/en)
 
 Luego ejecutar con una terminal en la raíz del proyecto los siguientes comandos: 
 
