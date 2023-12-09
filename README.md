@@ -18,12 +18,18 @@ Paso 4: Instalar dependencias en la raíz del proyecto y commandos para levantar
 
 Se requiere que su pc tenga instalado [Composer](https://getcomposer.org/), [Node y NPM](https://nodejs.org/en)
 
+Vaya a la carpeta de instalación de xamp por defecto C:\xampp\php
+
+Abra el archivo php.ini y modifique la linea ;extension=zip quitando el semicolon (;)
+
 Luego ejecutar con una terminal en la raíz del proyecto los siguientes comandos: 
 
 - composer install
 - php artisan key:generate
-- php artisan migrate
+- php artisan migrate  //Si le pide crear la base de datos Acepte (Y)
 - php artisan db:seed --class=UsersTableSeeder
 - php artisan serve --host=0.0.0.0
 
 Ya con esto el backend debería estar funcionando correctamente.
+
+Si ocurre algún error reinicie el editor con el que abrió el proyecto y reintente nuevamente.
