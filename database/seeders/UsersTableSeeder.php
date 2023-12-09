@@ -23,8 +23,8 @@ class UsersTableSeeder extends Seeder
             'country' => 'Country1',
             'summary' => 'Lorem ipsum dolor sit amet.',
             'frameworks' => json_encode([
-                ['name' => 'Laravel', 'level' => 'Intermediate', 'year' => 2019],
-                ['name' => 'Vue.js', 'level' => 'Beginner', 'year' => 2020],
+                ['name' => 'Laravel', 'level' => 'Intermediate'],
+                ['name' => 'Vue.js', 'level' => 'Beginner'],
             ]),
             'hobbies' => json_encode([
                 ['name' => 'Reading', 'description' => 'I love reading books.'],
@@ -43,8 +43,8 @@ class UsersTableSeeder extends Seeder
             'country' => 'Country2',
             'summary' => 'Consectetur adipiscing elit.',
             'frameworks' => json_encode([
-                ['name' => 'React', 'level' => 'Advanced', 'year' => 2018],
-                ['name' => 'Angular', 'level' => 'Intermediate', 'year' => 2019],
+                ['name' => 'React', 'level' => 'Advanced'],
+                ['name' => 'Angular', 'level' => 'Intermediate'],
             ]),
             'hobbies' => json_encode([
                 ['name' => 'Traveling', 'description' => 'I love exploring new places.'],
